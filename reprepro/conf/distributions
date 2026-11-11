@@ -1,0 +1,19 @@
+Origin: repo-setup
+Label: repo-setup
+Suite: trixie
+Codename: trixie
+Version: 13
+Architectures: amd64 source
+Components: main
+Description: Debian Trixie packages
+Tracking: minimal includechanges includebuildinfos
+
+# Signing is optional. To sign the repo (recommended if it's served
+# to anyone other than yourself), generate or import a GPG key and
+# add a line here:
+#
+#   SignWith: <your key's fingerprint>
+#
+# Without it, reprepro builds an unsigned repository - apt clients
+# then need `[trusted=yes]` in their sources.list entry, or you point
+# them at the key out-of-band some other way.
